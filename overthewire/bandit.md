@@ -20,3 +20,8 @@
 **goal:** find the password stored in a hidden file called "...Hiding-From-You"
 **command used:** 'cd inhere' to change directories, 'ls -a' to list hidden items, 'cat ./"...Hiding-From-You"' to read contents
 **what I learned:** '-a' flag for 'ls' shows all hidden contents.
+
+## level 4 -> 5
+**goal:** find the password in the only human-readable file in the inhere directory
+**command used:** 'cd inhere' to change directories, 'file ./-file0*' to list file types using '*' as wildcard. 'cat ./-file07' to read contents
+**what I learned:** rather than relying on file extensions, linux CLI will list the constitutive components of a file 
