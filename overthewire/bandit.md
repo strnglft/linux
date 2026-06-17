@@ -16,3 +16,7 @@
 **what I learned:** using "" will target literal text in strings
 
 
+## level 3 -> 4
+**goal:** find the password stored in a hidden file called "...Hiding-From-You"
+**command used:** 'cd inhere' to change directories, 'ls -a' to list hidden items, 'cat ./"...Hiding-From-You"' to read contents
+**what I learned:** '-a' flag for 'ls' shows all hidden contents.
