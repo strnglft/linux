@@ -25,3 +25,8 @@
 **goal:** find the password in the only human-readable file in the inhere directory
 **command used:** 'cd inhere' to change directories, 'file ./-file0*' to list file types using '*' as wildcard. 'cat ./-file07' to read contents
 **what I learned:** rather than relying on file extensions, linux CLI will list the constitutive components of a file 
+
+## level 5 -> level 6
+**goal:** locating password somewhere in 'inhere' directory in a file that is human-readable, 1033 bytes in size, and not executable
+**command used:** 'ls' to list storage, 'cd inhere' to change directories, 'ls' to list storage. 'find -size 1033c' to locate file, 'cat ./maybehere07/.file 2' to extract password
+**what I learned:** 'find' has various flags that can be used to isolate individual file characteristics
