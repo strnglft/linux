@@ -1,2 +1,2 @@
 # linux
-Working with Arch
+Working with Arch. Cataloging different scripts and pieces of customization.
